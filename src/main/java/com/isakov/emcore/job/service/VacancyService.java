@@ -5,7 +5,7 @@ import java.util.List;
 
 public interface VacancyService {
 
-    List<VacancyDTO> findVacanciesBeVacancyName(String vacancyName);
+    List<VacancyDTO> findVacanciesByVacancyName(String vacancyName);
 
 }
 
