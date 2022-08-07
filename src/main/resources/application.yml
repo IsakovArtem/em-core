@@ -4,3 +4,7 @@ spring:
         url: jdbc:postgresql://localhost:5432/em_db
         username: postgres
         password: 123
+isakov:
+    hh:
+        vacancy:
+            base-url: https://api.hh.ru/vacancies

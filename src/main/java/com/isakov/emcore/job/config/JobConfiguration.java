@@ -24,6 +24,9 @@ public class JobConfiguration {
     @Bean
     public ObjectMapper objectMapper() {
         return new ObjectMapper().configure(
+                /* Global ignore UnrecognizedPropertyException.
+                Analog @JsonIgnoreProperties(ignoreUnknown = true) for dto.
+                 */
                 DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES,
                 false
         );
