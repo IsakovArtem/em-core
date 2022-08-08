@@ -13,43 +13,15 @@ import java.util.List;
 @SpringBootTest
 class HeadHunterApiServiceImplTest {
 
-
     @Autowired
     private HeadHunterApiService headHunterApiService;
 
     @Test
     public void testHeadHunterGetVacancies() {
         Assertions.assertDoesNotThrow(() -> {
-            List<HeadHunterVacancyDTO> vacancies = headHunterApiService.getVacancies("Java", "0", "2");
-            Assertions.assertEquals(2, vacancies.size());
-
-            debugInfo(vacancies);
+            List<HeadHunterVacancyDTO> vacancies = headHunterApiService.getVacancies("Java", "0", "3");
+            Assertions.assertEquals(3, vacancies.size());
         });
-    }
-
-    private void debugInfo(List<HeadHunterVacancyDTO> vacancies) {
-        for (HeadHunterVacancyDTO vacancy : vacancies) {
-            System.out.print(vacancy.getName() + " / " + vacancy.getEmployer().getName() + " / ");
-            if (vacancy.getSalary() != null) {
-                if (vacancy.getSalary().getFrom() != null) {
-                    System.out.print(vacancy.getSalary().getFrom());
-                } else {
-                    System.out.print("_");
-                }
-                System.out.print(" - ");
-                if (vacancy.getSalary().getTo() != null) {
-                    System.out.println(vacancy.getSalary().getTo());
-                } else {
-                    System.out.print("_");
-                }
-            } else {
-                System.out.println("_");
-            }
-
-            if (vacancy.getKeySkills() != null) {
-                vacancy.getKeySkills().forEach(System.out::println);
-            }
-        }
     }
 
     @Test

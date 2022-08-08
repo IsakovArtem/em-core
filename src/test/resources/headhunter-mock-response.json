@@ -1,0 +1,239 @@
+[
+  {
+    "id": "68530437",
+    "premium": false,
+    "name": "Java-разработчик",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "1",
+      "name": "Москва",
+      "url": "https://api.hh.ru/areas/1"
+    },
+    "salary": {
+      "from": 300000,
+      "to": 400000,
+      "currency": "RUR",
+      "gross": true
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": "Москва",
+      "street": "Цветной бульвар",
+      "building": "30с1",
+      "description": null,
+      "lat": 55.772178,
+      "lng": 37.622836,
+      "raw": "Москва, Цветной бульвар, 30с1",
+      "metro": {
+        "station_name": "Сухаревская",
+        "line_name": "Калужско-Рижская",
+        "station_id": "6.137",
+        "line_id": "6",
+        "lat": 55.772315,
+        "lng": 37.63285
+      },
+      "metro_stations": [
+        {
+          "station_name": "Сухаревская",
+          "line_name": "Калужско-Рижская",
+          "station_id": "6.137",
+          "line_id": "6",
+          "lat": 55.772315,
+          "lng": 37.63285
+        },
+        {
+          "station_name": "Трубная",
+          "line_name": "Люблинско-Дмитровская",
+          "station_id": "10.177",
+          "line_id": "10",
+          "lat": 55.76771,
+          "lng": 37.621926
+        },
+        {
+          "station_name": "Цветной бульвар",
+          "line_name": "Серпуховско-Тимирязевская",
+          "station_id": "9.154",
+          "line_id": "9",
+          "lat": 55.771653,
+          "lng": 37.620466
+        }
+      ],
+      "id": "7417952"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2022-08-08T18:50:10+0300",
+    "created_at": "2022-08-08T18:50:10+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=68530437",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/68530437?host=hh.ru",
+    "adv_response_url": "https://api.hh.ru/vacancies/68530437/adv_response?host=hh.ru",
+    "alternate_url": "https://hh.ru/vacancy/68530437",
+    "relations": [],
+    "employer": {
+      "id": "4759060",
+      "name": "HR Prime",
+      "url": "https://api.hh.ru/employers/4759060",
+      "alternate_url": "https://hh.ru/employer/4759060",
+      "logo_urls": {
+        "90": "https://hhcdn.ru/employer-logo/3610683.jpeg",
+        "240": "https://hhcdn.ru/employer-logo/3610684.jpeg",
+        "original": "https://hhcdn.ru/employer-logo-original/792449.jpg"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4759060",
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Знание Spring. Опыт в коммерческой разработке на <highlighttext>Java</highlighttext> 8,11 от трех лет. Опыт в построении микросервисной архитектуры. ",
+      "responsibility": "Работа в команде. Участие в проработке всей архитектуры."
+    },
+    "contacts": null,
+    "schedule": {
+      "id": "remote",
+      "name": "Удаленная работа"
+    },
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": true
+  },
+  {
+    "id": "68433579",
+    "premium": false,
+    "name": "Java-разработчик (стажер, Java Junior)",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "4",
+      "name": "Новосибирск",
+      "url": "https://api.hh.ru/areas/4"
+    },
+    "salary": {
+      "from": 50000,
+      "to": null,
+      "currency": "RUR",
+      "gross": false
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": {
+      "city": "Новосибирск",
+      "street": "Советский район, микрорайон Академгородок, Инженерная улица",
+      "building": "4А",
+      "description": null,
+      "lat": 54.857844,
+      "lng": 83.108115,
+      "raw": "Новосибирск, Советский район, микрорайон Академгородок, Инженерная улица, 4А",
+      "metro": null,
+      "metro_stations": [],
+      "id": "872481"
+    },
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2022-08-06T12:17:47+0300",
+    "created_at": "2022-08-06T12:17:47+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=68433579",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/68433579?host=hh.ru",
+    "adv_response_url": "https://api.hh.ru/vacancies/68433579/adv_response?host=hh.ru",
+    "alternate_url": "https://hh.ru/vacancy/68433579",
+    "relations": [],
+    "employer": {
+      "id": "2997503",
+      "name": "Айкам",
+      "url": "https://api.hh.ru/employers/2997503",
+      "alternate_url": "https://hh.ru/employer/2997503",
+      "logo_urls": {
+        "original": "https://hhcdn.ru/employer-logo-original/767985.png",
+        "90": "https://hhcdn.ru/employer-logo/3512897.png",
+        "240": "https://hhcdn.ru/employer-logo/3512898.png"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2997503",
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "По мере роста опыта: - <highlighttext>Java</highlighttext> SE/EE. - JavaScript(Nashorn). - xml – конфигурирование. - Понимание ООП и принципов проектирования. - Хорошее знание <highlighttext>Java</highlighttext> SE...",
+      "responsibility": "Разработка новых модулей системы, поддержка и развитие существующих модулей СЭД CompanyMedia. - Разработка новых и сопровождение существующих отчетов. - Взаимодействовать с командой..."
+    },
+    "contacts": null,
+    "schedule": {
+      "id": "fullDay",
+      "name": "Полный день"
+    },
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false
+  },
+  {
+    "id": "68475916",
+    "premium": false,
+    "name": "Java-разработчик",
+    "department": null,
+    "has_test": false,
+    "response_letter_required": false,
+    "area": {
+      "id": "1",
+      "name": "Москва",
+      "url": "https://api.hh.ru/areas/1"
+    },
+    "salary": {
+      "from": 260000,
+      "to": 280000,
+      "currency": "RUR",
+      "gross": false
+    },
+    "type": {
+      "id": "open",
+      "name": "Открытая"
+    },
+    "address": null,
+    "response_url": null,
+    "sort_point_distance": null,
+    "published_at": "2022-08-07T12:45:53+0300",
+    "created_at": "2022-08-07T12:45:53+0300",
+    "archived": false,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=68475916",
+    "insider_interview": null,
+    "url": "https://api.hh.ru/vacancies/68475916?host=hh.ru",
+    "adv_response_url": "https://api.hh.ru/vacancies/68475916/adv_response?host=hh.ru",
+    "alternate_url": "https://hh.ru/vacancy/68475916",
+    "relations": [],
+    "employer": {
+      "id": "701365",
+      "name": "Бизнес-Азимут",
+      "url": "https://api.hh.ru/employers/701365",
+      "alternate_url": "https://hh.ru/employer/701365",
+      "logo_urls": {
+        "240": "https://hhcdn.ru/employer-logo/481883.jpeg",
+        "original": "https://hhcdn.ru/employer-logo-original/149835.jpg",
+        "90": "https://hhcdn.ru/employer-logo/481882.jpeg"
+      },
+      "vacancies_url": "https://api.hh.ru/vacancies?employer_id=701365",
+      "trusted": true
+    },
+    "snippet": {
+      "requirement": "Опыт работы от 3 лет с <highlighttext>Java</highlighttext>. От 1 года со Spring Boot. Опыт взаимодействия с API (вызов из сервиса...",
+      "responsibility": null
+    },
+    "contacts": null,
+    "schedule": {
+      "id": "remote",
+      "name": "Удаленная работа"
+    },
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false
+  }
+]
