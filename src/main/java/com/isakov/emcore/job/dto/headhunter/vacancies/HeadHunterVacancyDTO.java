@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Data
+//_example @JsonIgnoreProperties(ignoreUnknown = true)
 public class HeadHunterVacancyDTO {
     private Long id;
     private String name;

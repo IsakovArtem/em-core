@@ -17,7 +17,7 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-//@Profile{("!mock")
+@Profile("!mock")
 @Slf4j
 public class VacancyServiceImpl implements VacancyService {
 
