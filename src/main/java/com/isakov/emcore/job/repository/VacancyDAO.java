@@ -1,4 +1,4 @@
-package com.isakov.emcore.job.dao;
+package com.isakov.emcore.job.repository;
 
 import com.isakov.emcore.job.entity.SalaryEntity;
 import com.isakov.emcore.job.entity.VacancyEntity;
@@ -14,7 +14,6 @@ import java.util.List;
 import java.util.Map;
 
 @Repository
-@Component
 @RequiredArgsConstructor
 public class VacancyDAO {
 

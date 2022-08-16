@@ -1,6 +1,7 @@
 package com.isakov.emcore.job.dao;
 
 import com.isakov.emcore.job.entity.VacancyEntity;
+import com.isakov.emcore.job.repository.VacancyDAO;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

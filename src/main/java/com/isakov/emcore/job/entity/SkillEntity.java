@@ -9,6 +9,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.validation.constraints.Size;
 import java.util.Objects;
 
 @Entity(name = "skill")
@@ -21,6 +22,7 @@ public class SkillEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     @NonNull
+    @Size(min = 2, max = 250, message = "Name should be between 2 and 250 characters")
     private String name;
 
     @Override
