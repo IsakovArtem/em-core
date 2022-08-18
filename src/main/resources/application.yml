@@ -4,6 +4,8 @@ spring:
         url: jdbc:postgresql://localhost:5432/em_db
         username: postgres
         password: 123
+    flyway:
+        enabled: false
 isakov:
     hh:
         vacancy:

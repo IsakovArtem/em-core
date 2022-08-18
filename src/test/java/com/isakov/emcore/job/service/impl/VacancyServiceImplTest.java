@@ -20,30 +20,29 @@ import static org.mockito.Mockito.when;
 
 @SpringBootTest
 class VacancyServiceImplTest {
-
-    @Autowired
-    private ObjectMapper objectMapper;
-
-    @Autowired
-    private VacancyService vacancyService;
-
-    @MockBean
-    private HeadHunterApiService headHunterApiService;
-
-    @Test
-    void findVacanciesByVacancyNameHHService() throws IOException {
-        List<HeadHunterVacancyDTO> list = objectMapper.readValue(this.getClass().getClassLoader()
-                .getResourceAsStream("headhunter-mock-response.json"), new TypeReference<>() {
-        });
-        when(headHunterApiService.getVacancies(anyString())).thenReturn(list);
-        List<VacancyDTO> vacancies = vacancyService.findVacanciesByVacancyName("Java");
-        assertEquals(vacancies.size(),3);
-    }
-
-    @Test
-    void findVacanciesByVacancyNameDB() {
-        List<VacancyDTO> vacancies = vacancyService.findVacanciesByVacancyName("Java developer");
-        assertEquals(vacancies.get(0).getTitle(),"Java developer");
-    }
-
+//
+//    @Autowired
+//    private ObjectMapper objectMapper;
+//
+//    @Autowired
+//    private VacancyService vacancyService;
+//
+//    @MockBean
+//    private HeadHunterApiService headHunterApiService;
+//
+//    @Test
+//    void findVacanciesByVacancyNameHHService() throws IOException {
+//        List<HeadHunterVacancyDTO> list = objectMapper.readValue(this.getClass().getClassLoader()
+//                .getResourceAsStream("headhunter-mock-response.json"), new TypeReference<>() {
+//        });
+//        when(headHunterApiService.getVacancies(anyString())).thenReturn(list);
+//        List<VacancyDTO> vacancies = vacancyService.findVacanciesByVacancyName("Java");
+//        assertEquals(vacancies.size(),3);
+//    }
+//
+//    @Test
+//    void findVacanciesByVacancyNameDB() {
+//        List<VacancyDTO> vacancies = vacancyService.findVacanciesByVacancyName("Java developer");
+//        assertEquals(vacancies.get(0).getTitle(),"Java developer");
+//    }
 }

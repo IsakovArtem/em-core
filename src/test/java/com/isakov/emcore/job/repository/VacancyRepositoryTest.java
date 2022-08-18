@@ -9,13 +9,13 @@ import java.util.List;
 
 @SpringBootTest
 class VacancyRepositoryTest {
-
-    @Autowired
-    VacancyRepository vacancyRepository;
-
-    @Test
-    void SearchBySalaryRange() {
-        List<VacancyEntity> vacancyEntityList = vacancyRepository.SearchBySalaryRange(3000, 5000);
-        System.out.println(vacancyEntityList);
-    }
+//
+//    @Autowired
+//    VacancyRepository vacancyRepository;
+//
+//    @Test
+//    void SearchBySalaryRange() {
+//        List<VacancyEntity> vacancyEntityList = vacancyRepository.SearchBySalaryRange(3000, 5000);
+//        System.out.println(vacancyEntityList);
+//    }
 }
