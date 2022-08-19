@@ -1,0 +1,7 @@
+{"properties": [
+  {
+    "name": "isakov.hh.vacancy.base-url",
+    "type": "java.lang.String",
+    "description": "Base URL of APT HH."
+  }
+]}
