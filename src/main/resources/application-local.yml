@@ -8,7 +8,6 @@ logging:
         encore: DEBUG
 spring:
   flyway:
-    locations: classpath:db.migration #value locations was "classpath:db/migration"
     enabled: true
 
   jpa:
